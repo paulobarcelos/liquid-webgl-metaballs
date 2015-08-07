@@ -1,0 +1,82 @@
+@font-face {
+	font-family: "futura-light";
+	src: url("FuturaLight.otf");
+}
+
+@font-face {
+	font-family: "futura-normal";
+	src: url("FuturaNormal.ttf");
+}
+
+
+.dg.a.has-save ul .folder ul {	margin-top: 0;}
+.dg.ac {z-index: 2 !important;}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#logo {
+	position: fixed;
+	z-index: 3;
+	width: 30%;
+	height: auto;
+	bottom: 0;
+	left: 35%;
+}
+
+
+#text{
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	width: 40%;
+	padding: 5%;
+	z-index: 1;
+	background-color: rgba(255, 255, 255, 0.84);
+	opacity: 0;
+}
+
+#text.fade-in  {
+	animation: fadein 1s;
+	-moz-animation: fadein 1s;
+	-webkit-animation: fadein 1s;
+	-o-animation: fadein 1s;
+}
+@keyframes 		   fadein { 0% { opacity:0; } 100% { opacity:1; } }
+@-moz-keyframes    fadein { 0% { opacity:0; } 100% { opacity:1; } }
+@-webkit-keyframes fadein { 0% { opacity:0; } 100% { opacity:1; } }
+@-o-keyframes	   fadein { 0% { opacity:0; } 100% { opacity:1; } }
+#text.fade-out  {
+	animation: fadeout 1s;
+	-moz-animation: fadeout 1s;
+	-webkit-animation: fadeout 1s;
+	-o-animation: fadeout 1s;
+}
+@keyframes 		   fadeout { 0% { opacity:1; } 100% { opacity:0; } }
+@-moz-keyframes    fadeout { 0% { opacity:1; } 100% { opacity:0; } }
+@-webkit-keyframes fadeout { 0% { opacity:1; } 100% { opacity:0; } }
+@-o-keyframes	   fadeout { 0% { opacity:1; } 100% { opacity:0; } }
+#text.fade-complete  {
+	opacity: 1;
+}
+
+#text .heading{
+	font-family: "futura-normal";
+text-transform: uppercase;
+font-size: 2.2em;
+}
+#text .body{
+	font-family: "futura-light";
+font-size: 2em;
+line-height: 1.3em;
+margin-top: 1em;
+}

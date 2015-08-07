@@ -1,0 +1,10 @@
+{
+  "name": "liquid-installations",
+  "version": "0.0.0",
+  "author": "",
+  "description": "",
+  "dependencies": {
+    "happy-toolkit" : "x",
+    "requirejs" : "x"
+    }
+}

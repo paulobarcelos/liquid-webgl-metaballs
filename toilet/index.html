@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Happy</title>
+		<!--happy-->
+		<link rel="stylesheet" href="../../common/style.css">
+		<script data-main="src/main.js" src="../node_modules/requirejs/require.js"></script>
+		<script>
+			require.config({
+				urlArgs: (new Date()).getTime()
+			});
+			require({
+				paths: {
+					happy: "../../node_modules/happy-toolkit"
+				}
+			});
+		</script>
+		<!--/happy-->
+	</head>
+	<body>
+		<img id="logo" style="height: 15%;" src="../../common/logo.png"/>
+	</body>
+</html>

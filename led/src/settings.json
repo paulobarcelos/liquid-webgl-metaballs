@@ -1,0 +1,58 @@
+{
+  "preset": "Default",
+  "remembered": {
+    "Default": {
+      "0": {
+        "Center Attraction Amount": 0.2,
+        "Center Attraction Max Radius": 0.5,
+        "Center Repulsion Amount": 0.2,
+        "Center Repulsion Max Radius": 1,
+        "Attraction Points Amount": 3,
+        "Attraction Points Max Radius": 0.9264173703256935,
+        "Low Spinning Amount": 3,
+        "High Spinning Amount": 1.5,
+        "Deformation Frequency": 10,
+        "Deformation Amount": 0.4,
+        "Bass Filter Frequency": 68,
+        "Bass Filter Q": 12.92842232846273,
+        "Bass Filter Gain": 10,
+        "Treble Filter Frequency": 8712.734792348785,
+        "Treble Filter Q": 99,
+        "Treble Filter Gain": 36.76029639841461
+      }
+    }
+  },
+  "closed": false,
+  "folders": {
+    "Center Attraction": {
+      "preset": "Default",
+      "closed": true,
+      "folders": {}
+    },
+    "Center Repulsion": {
+      "preset": "Default",
+      "closed": true,
+      "folders": {}
+    },
+    "Attraction Points": {
+      "preset": "Default",
+      "closed": true,
+      "folders": {}
+    },
+    "Spinning": {
+      "preset": "Default",
+      "closed": true,
+      "folders": {}
+    },
+    "Deformation": {
+      "preset": "Default",
+      "closed": true,
+      "folders": {}
+    },
+    "Audio": {
+      "preset": "Default",
+      "closed": true,
+      "folders": {}
+    }
+  }
+}
